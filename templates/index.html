@@ -1,0 +1,14 @@
+{%extends "layout.html" %}
+{% block content %}
+
+<h1>You are here</h1>
+<h2>Welcome. Today is {{weather}}</h2>
+<ol>
+    {% for user in users %}
+        <li>{{ user }}</li>
+    {% endfor %}
+</ol>
+<table>
+
+</table>
+{% endblock %}
